@@ -9,7 +9,7 @@ const Hero = () => {
                     next project.</p>
                 <div className="space-x-4">
                     <button className="bg-brand-gradient hover:bg-blue-700 text-white font-bold p-4 rounded-2xl">
-                        Explore Technologies
+                        Explore Technologiess
                     </button>
                     <button className="border border-gray-400 m-2 font-bold p-4 rounded-2xl"> Learn More</button>
                 </div>
