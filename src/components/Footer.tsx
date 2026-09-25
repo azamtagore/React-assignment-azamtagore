@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-600 font-sans border-t border-gray-100 py-12 px-6 md:px-16">
@@ -10,14 +8,14 @@ const Footer = () => {
           {/* Brand & Info Column */}
           <div className="md:col-span-5 space-y-4">
             {/* Logo */}
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center text-white font-bold text-xs shadow-sm">
+           <div><img className="h-8" src="/src/assets/logo-text.png" alt="logo" /></div>
+              {/* <div className="w-8 h-8 rounded-lg from-purple-600 to-pink-500 flex items-center justify-center text-white font-bold text-xs shadow-sm">
                 DS
               </div>
               <span className="text-xl font-bold tracking-tight text-slate-900">
                 Dev<span className="text-pink-500">Stack</span>
               </span>
-            </div>
+            </div> */}
 
             {/* Description */}
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">

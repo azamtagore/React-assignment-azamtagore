@@ -26,15 +26,13 @@ function App() {
       if (prev.some((item) => item.id === tech.id)) {
         return prev;
       }
-
       return [...prev, tech];
     });
   };
-
   // Remove one technology from stack
-  const handleRemove = (id: number) => {
+  const handleRemove = (id: string) => {
     setSelectedTechs((prev) =>
-      prev.filter((tech) => tech.id !== id)
+      prev.filter((tech) => tech.id == id)
     );
   };
 
